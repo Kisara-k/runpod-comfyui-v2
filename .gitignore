@@ -1,0 +1,85 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+logs/
+
+# Output files
+output/
+outputs/
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Sensitive data
+.env
+.env.local
+*.key
+*.pem
+
+# Docker
+.dockerignore
+
+# Test files
+test-output.png
+output_*.png
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# Model files (too large for git)
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+models/
+
+# API keys and credentials
+api_key.txt
+credentials.json
